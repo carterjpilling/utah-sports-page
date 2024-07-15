@@ -1,3 +1,11 @@
 .image {
   filter: grayscale(1);
 }
+
+.headline,
+.description {
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;;
+}

@@ -8,8 +8,8 @@ export default function CarouselCard({ image, headline, description }) {
       <Image
         src={image}
         alt={headline}
-        height={200}
-        width={315}
+        height={221}
+        width={393}
         className={styles.image}
       />
       <h2 className={`${loraBold.className} ${styles.headline}`}>{headline}</h2>
