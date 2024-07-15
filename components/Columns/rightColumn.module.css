@@ -1,0 +1,34 @@
+.rightColumnContainer{
+  border-top: 1px solid #8080804a;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border-bottom: 1px solid #8080804a;
+}
+
+.rightColumnContainer .articleContainer:first-child {
+  border-bottom: 1px solid #8080804a;
+}
+
+.articleInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+.headline {
+  text-align: justify;
+  margin: 10px 0px 10px 0px;
+  font-size: 18px;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+
+.image {
+  filter: grayscale(1)
+}

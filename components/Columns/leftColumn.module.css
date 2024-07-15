@@ -1,0 +1,40 @@
+.leftColumnContainer{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columnTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.articleInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 14px;
+}
+
+.byline,
+.date {
+  margin: 0;
+  color: #6b6a6a;
+}
+
+.headline {
+  text-align: justify;
+  margin: 15px 0px 15px 0px;
+  font-size: 18px;
+    hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.articleContainer {
+  border-bottom: 1px solid #8080804a;
+  padding-bottom: 15px;
+}
