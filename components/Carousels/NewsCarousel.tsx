@@ -22,8 +22,8 @@ export default function NewsCarousel({ data }) {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
         // breakpoints={
         //   {
         //     640: {

@@ -1,0 +1,17 @@
+.doughnutChartContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin: 0 0 1rem 0; */
+}
+
+.overallMedalLeaderContainer,
+.individualMedalLeaderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.medalInfoContainer {
+  display: flex
+}
