@@ -23,18 +23,20 @@
 .date {
   margin: 0;
   color: #6b6a6a;
+  height: 19px;
 }
 
 .headline {
   text-align: justify;
-  margin: 15px 0px 15px 0px;
+  margin: 12px 0px 12px 0px;
   font-size: 18px;
     hyphens: auto;
   word-break: break-word;
   overflow-wrap: break-word;
+  height: 46px;
 }
 
 .articleContainer {
   border-bottom: 1px solid #8080804a;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
