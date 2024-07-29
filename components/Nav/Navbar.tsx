@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import styles from "./navbar.module.css";
 
 export default function Navbar() {
@@ -18,7 +19,9 @@ export default function Navbar() {
         <div className={styles.optionContainer}>
           <h2 className={styles.navbarOption}>Home</h2>
           <h2 className={styles.navbarOption}>Schedules</h2>
-          <h2 className={styles.navbarOption}>Sponsor Deals</h2>
+          <Link href={"/deals"} className={styles.navbarOption}>
+            Sponsor Deals
+          </Link>
           <h2 className={styles.navbarOption}>Team Stores</h2>
           <h2 className={styles.navbarOption}>Tickets</h2>
         </div>

@@ -2,7 +2,7 @@
 const nextConfig = {
   // reactStrictMode: true,
   images: {
-    domains: ['a.espncdn.com'],
+    domains: ['a.espncdn.com', 'upload.wikimedia.org'],
   },
   // async headers() {
   //   return [
